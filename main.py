@@ -6,7 +6,6 @@ import wikipedia
 import pyjokes
 
 engine = pyttsx3.init('sapi5')
-# changes to a female voice
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
