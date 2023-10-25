@@ -5,10 +5,6 @@ import datetime
 import wikipedia
 import pyjokes
 
-# Re-watch YouTube tutorial and make notes
-# Find a way to fuse this bot with Chat GPT style responses whenever I ask it a question.
-# Change the voice type to have more personality
-
 engine = pyttsx3.init('sapi5')
 # changes to a female voice
 voices = engine.getProperty('voices')
